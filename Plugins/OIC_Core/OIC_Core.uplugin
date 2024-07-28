@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "OIC_Core",
+	"Description": "Open Interactive Cinematic Core",
+	"Category": "Other",
+	"CreatedBy": "Nguyen Phi Hung",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "OIC_Core",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
