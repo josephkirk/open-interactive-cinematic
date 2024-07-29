@@ -27,6 +27,8 @@ What constitute an interactive cinematic:
 - Binding audio with ink script narrative.
 - Workflow for changing Level sequence base on choice.
 - Workflow for trigger situational awareness commenting.
+- Workflow for 1 to 1, 1 to many or many to many conversation.
+- Adapt to character proportion.
 
 ## Thirdparty plugin dependencies
 https://github.com/JBenda/inkcpp
