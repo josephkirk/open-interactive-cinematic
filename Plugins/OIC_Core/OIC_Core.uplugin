@@ -4,7 +4,7 @@
 	"VersionName": "1.0",
 	"FriendlyName": "OIC_Core",
 	"Description": "Open Interactive Cinematic Core",
-	"Category": "Other",
+	"Category": "Narrative",
 	"CreatedBy": "Nguyen Phi Hung",
 	"CreatedByURL": "",
 	"DocsURL": "",
@@ -19,6 +19,24 @@
 			"Name": "OIC_Core",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "inkcpp",
+			"Enabled": true
+		},
+		{
+			"Name": "ModularGameplay",
+			"Enabled": true
+		},
+		{
+			"Name": "GameFeatures",
+			"Enabled": true
+		},
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
 		}
 	]
 }
