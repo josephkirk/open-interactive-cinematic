@@ -5,7 +5,7 @@ status: INFLUX
 
 
 ## Goal of project ?
-
+A frame work to build and learn how to build a interactive branching narrative experience from scratch
 
 ## Sample Project Idea
 
@@ -32,6 +32,7 @@ mindmap
       Cutscene
       Passive Event
       Passive Dialogue
+      Spectating
     Branching<br/>Narrative
       Action Choice Event Cutscene
       Multiple Choice Dialogue
