@@ -50,3 +50,5 @@ https://github.com/JBenda/inkcpp
 [Baldur's Gate 3 cinematic approach](https://www.youtube.com/watch?v=MdmY9Mt-vz8&t=1382s)
 
 [Just Cause 4's animation and cinematic content workflows](https://www.youtube.com/watch?v=MQjCYQb_pFU)
+
+[Branching Narrative Tool](https://www.youtube.com/watch?v=oRHl2PLKwfY)
