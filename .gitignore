@@ -13,5 +13,3 @@ Saved
 *.xcodeproj
 *.xcworkspace
 /scripts
-Plugins/Ink
-Plugins/inkcpp
