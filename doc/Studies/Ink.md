@@ -9,11 +9,11 @@ status: WIP
 
 # Ink
 
-A narrative scripting language for game
+A narrative scripting language for game.
 
 Ink is just pure written text with "markup" to make it interactive.
+'
 
-You can split up your ink file into smaller ones that are linked together.
 
 As with any programming language, you can create custom variables, and perform mathematical calculations.
 

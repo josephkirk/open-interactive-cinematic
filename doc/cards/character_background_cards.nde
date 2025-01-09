@@ -1,0 +1,53 @@
+BORDER=RECTANGLE,#FFF, 0.2
+UNIT=CM
+PAGE=21,29.7,PORTRAIT,HV,#FFFFFF,,#FFFFFF
+DPI=300
+CARDSIZE=6,9
+BASERANGE=,ON
+[spacing]= 4%
+
+LINK=character_background_cards.xlsx
+VISUAL=V,10,10
+
+<TITLE_FRONT>="Gill Sans MT",12,FB,#000000,#FFFFFF
+<CONTENT_FRONT>="Gill Sans MT",14,F,#000000,#FFFFFF
+<frame>= 5%,5%,90%,5%
+;Field: TITLE
+RECTANGLE="1-{(TITLE)}",<frame,CC, 1, 1>,#FFFFFF
+FONT=Calibri,11,B,#000000,#FFFFFF
+TEXT=,"Character Background",<frame,TS,0.5>,left,wordwrap
+FONT="Franklin Gothic Medium Cond",18,B,#000000,#FFFFFF
+TEXT="1-{(BACKGROUND)}",[BACKGROUND],<frame,TS,1>,CENTER,wordwrap
+;Field: CORE FEELING
+RECTANGLE=,<frame,TS, 0.05>,#000000, #000000
+FONT=<TITLE_FRONT>
+TEXT=,"CORE STORY",<frame,TS,1>,left,wordwrap
+FONT=<CONTENT_FRONT>
+TEXT="1-{(CORE STORY)}",[CORE STORY],<frame,TS,1>,center,center
+;Field: VISUAL
+RECTANGLE=,<frame,TS, 0.05>,#000000, #000000
+FONT=<TITLE_FRONT>
+TEXT=,"KEY SKILLS",<frame,TS,0.5>,left,wordwrap
+FONT=<CONTENT_FRONT>
+TEXT="1-{(KEY SKILLS)}",[KEY SKILLS],<frame,TS,0.5>,left,wordwrap
+;Field: AUDIO
+RECTANGLE=,<frame,TS, 0.05>,#000000, #000000
+FONT=<TITLE_FRONT>
+TEXT=,"RESOURCES",<frame,TS,0.5>,left,wordwrap
+FONT=<CONTENT_FRONT>
+TEXT="1-{(RESOURCES)}",[RESOURCES],<frame,TS,0.75>,left,wordwrap
+;Field: LEVEL DESIGN
+RECTANGLE=,<frame,TS, 0.05>,#000000, #000000
+FONT=<TITLE_FRONT>
+TEXT=,"CHALLENGES",<frame,TS,0.5>,left,wordwrap
+FONT=<CONTENT_FRONT>
+TEXT="1-{(CHALLENGES)}",[CHALLENGES],<frame,TS,0.75>,left,wordwrap
+;Field: ANIMATION
+RECTANGLE=,<frame,TS, 0.05>,#000000, #000000
+FONT=<TITLE_FRONT>
+TEXT=,"CONNECTIONS",<frame,TS,0.5>,left,wordwrap
+FONT=<CONTENT_FRONT>
+TEXT="1-{(CONNECTIONS)}",[CONNECTIONS],<frame,TS,0.5>,left,wordwrap
+ENDVISUAL
+;[box]=FRAMEBOX(2,1,1,2,2,1,C.)
+;RECTANGLE=,<BOX1.1>,#0000FF,EMPTY,0.1

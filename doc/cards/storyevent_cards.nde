@@ -1,0 +1,46 @@
+BORDER=RECTANGLE,#FFF, 0.2
+UNIT=CM
+PAGE=21,29.7,PORTRAIT,HV,#FFFFFF,,#FFFFFF
+DPI=300
+CARDSIZE=6,9
+BASERANGE=,ON
+[spacing]= 4%
+
+LINK=story_event_cards.xlsx
+LINKNEW=<br>
+VISUAL=V,10,10
+
+<TITLE_FRONT>="Gill Sans MT",12,FB,#000000,#FFFFFF
+<CONTENT_FRONT>="Gill Sans MT",14,F,#000000,#FFFFFF
+<SUB_FRONT>="Gill Sans MT",12,FI,#000000,#FFFFFF
+<frame>= 5%,5%,90%,5%
+
+RECTANGLE="1-{(NAME)}",<frame,CC, 1, 1>,#FFFFFF
+FONT=Calibri,11,B,#000000,#FFFFFF
+TEXT=,"Story event",<frame,TS,0.5>,left,wordwrap
+FONT="Franklin Gothic Medium Cond",18,B,#000000,#FFFFFF
+TEXT="1-{(NAME)}",[NAME],<frame,TS,1>,CENTER,wordwrap
+
+RECTANGLE=,<frame,TS, 0.05>,#000000, #000000
+FONT=<TITLE_FRONT>
+TEXT=,"CORE ELEMENTS",<frame,TS,0.5>,left,wordwrap
+FONT=<CONTENT_FRONT>
+TEXT="1-{(CORE ELEMENTS)}",[CORE ELEMENTS],<frame,TS,1.5>,left,wordwrap
+
+RECTANGLE=,<frame,TS, 0.05>,#000000, #000000
+FONT=<TITLE_FRONT>
+TEXT=,"TECHNICAL NEEDS",<frame,TS,0.5>,left,wordwrap
+FONT=<CONTENT_FRONT>
+TEXT="1-{(TECHNICAL NEEDS)}",[TECHNICAL NEEDS],<frame,TS,1.5>,left,wordwrap
+
+RECTANGLE=,<frame,TS, 0.05>,#000000, #000000
+FONT=<TITLE_FRONT>
+TEXT=,"STORY IMPACT",<frame,TS,0.5>,left,wordwrap
+FONT=<CONTENT_FRONT>
+TEXT="1-{(STORY IMPACT)}",[STORY IMPACT],<frame,TS,1>,left,wordwrap
+
+
+
+ENDVISUAL
+;[box]=FRAMEBOX(2,1,1,2,2,1,C.)
+;RECTANGLE=,<BOX1.1>,#0000FF,EMPTY,0.1
