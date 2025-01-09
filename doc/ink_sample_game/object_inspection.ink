@@ -20,7 +20,7 @@ VAR paintingState = (unseen)
 VAR current_tools = (none)
 VAR current_evidence = (none)
 VAR current_items = (none)
-
+-> begin_game
 === function has_tool(tool) ===
     {
         - (current_tools ? tool):
@@ -56,7 +56,7 @@ VAR current_items = (none)
             ~ return false
     }
 
--> begin_game
+
 
 === begin_game ===
     Before entering the study, you need to gather your investigation tools.
